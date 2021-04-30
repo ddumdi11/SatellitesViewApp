@@ -4,3 +4,12 @@ Vorläufiger Abbruch: Das Subscriben zu den FreePlanAPIs ist anscheinend nur dur
 Das will ich nicht. Vielleicht ergeben sich noch andere Möglichkeiten.
 Die NASA API wird überhaupt nicht mehr auf dieser Seite angeboten. Deshalb hatte ich eine Satelliten-API probiert.
 Jedoch ... (siehe oben!)
+
+2. Versuch:
+Ein Mix mit Code aus diesem Tutorial:
+ https://medium.com/daily-python/consuming-nasa-api-using-python-part-1-daily-python-17-4ce104fa47ab
+und Zugriff auf die NASA-API-Website: https://api.nasa.gov/
+Schlägt wieder fehl.
+
+3. Versuch:
+Mittlerweile mit zugesandtem Demo-Key herumprobiert ... heute wird's keine Lösung mehr geben, ein andermal ...

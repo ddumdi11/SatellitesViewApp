@@ -4,16 +4,14 @@ import imageio
 from skimage import transform,io
 
 # get json with information (including name and date) about Earth pictures
-response = requests.post("https://NasaAPIdimasV1.p.rapidapi.com/getEPICEarthImagery",
- headers={
-   "X-RapidAPI-Host": "NasaAPIdimasV1.p.rapidapi.com",
-   "X-RapidAPI-Key": "4xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
-   "Content-Type": "application/x-www-form-urlencoded"
- }
-)
+response = requests.post("https://api.nasa.gov/planetary/earth/imagery",
+    params = {
+      'api_key':"avKRwQxxxxxxxxx"
+    })
 
 # convert json to Python object
 data = response.json()
+print(data)
 
 # create regex pattern to get separately year, month and day of an image
 dates_pattern = r"^(?P<year>d{4})-(?P<month>d{2})-(?P<day>d{2})"
